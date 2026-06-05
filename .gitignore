@@ -1,0 +1,32 @@
+# Python / env
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+*.code-workspace
+.DS_Store
+
+# Dataset (provide separately; do not commit course data)
+Data/
+
+# Checkpoints (run notebook to generate)
+model.pth
+outputs/best_model.pth
+*.pth
+
+# Local experiment logs
+wandb/
+prev/
+
+# Submission / archive artifacts
+*.zip
+
+# Generated notebook export (optional)
+notebook_output.pdf
+
+# Temp scripts
+_run.py
+_gradcam_test.py

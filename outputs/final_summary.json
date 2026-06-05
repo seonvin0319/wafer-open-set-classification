@@ -1,0 +1,62 @@
+{
+  "best_method_on_test": "Proposed: Diagonal + Soft Fusion",
+  "best_test_macro_f1": 0.870305845915602,
+  "proposed_alpha": 0.2,
+  "proposed_threshold": -0.22853500372017832,
+  "proposed_test": {
+    "method": "Proposed: Diagonal + Soft Fusion",
+    "known_accuracy": 0.8571428571428571,
+    "unknown_precision": 0.8780487804878049,
+    "unknown_recall": 0.9,
+    "macro_f1": 0.870305845915602,
+    "acc": 0.88,
+    "precision": 0.8921312427409989,
+    "recall": 0.85625,
+    "split": "test",
+    "alpha": 0.2,
+    "threshold": -0.22853500372017832
+  },
+  "thresholds_baseline": {
+    "msp": {
+      "known_accuracy": 0.9428571428571428,
+      "unknown_precision": 0.75,
+      "unknown_recall": 0.15,
+      "macro_f1": 0.5978673345476624,
+      "acc": 0.52,
+      "precision": 0.6454589216944802,
+      "recall": 0.74375,
+      "threshold": 0.9798155454834503
+    },
+    "energy": {
+      "known_accuracy": 0.8,
+      "unknown_precision": 0.6666666666666666,
+      "unknown_recall": 0.35,
+      "macro_f1": 0.6338218949708253,
+      "acc": 0.56,
+      "precision": 0.6506410256410257,
+      "recall": 0.675,
+      "threshold": -3.45015696688513
+    },
+    "maha": {
+      "known_accuracy": 0.9714285714285714,
+      "unknown_precision": 0.9666666666666667,
+      "unknown_recall": 0.725,
+      "macro_f1": 0.8548701298701299,
+      "acc": 0.84,
+      "precision": 0.8324404761904762,
+      "recall": 0.9187500000000001,
+      "threshold": 30433.601754656436
+    },
+    "combo": {
+      "known_accuracy": 0.9714285714285714,
+      "unknown_precision": 0.9666666666666667,
+      "unknown_recall": 0.725,
+      "macro_f1": 0.8548701298701299,
+      "acc": 0.84,
+      "precision": 0.8324404761904762,
+      "recall": 0.9187500000000001,
+      "energy_thr": -1.6008858680725098,
+      "maha_thr": 30554.673017733152
+    }
+  }
+}
