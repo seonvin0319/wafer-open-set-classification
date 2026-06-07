@@ -12,10 +12,10 @@ __pycache__/
 # Dataset (provide separately; do not commit course data)
 Data/
 
-# Checkpoints (run notebook to generate)
-model.pth
+# Checkpoints — model.pth is committed; other .pth files are local artifacts
 outputs/best_model.pth
 *.pth
+!model.pth
 
 # Local experiment logs
 wandb/
