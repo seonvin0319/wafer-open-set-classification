@@ -12,10 +12,10 @@ __pycache__/
 # Dataset (provide separately; do not commit course data)
 Data/
 
-# Checkpoints — model.pth is committed; other .pth files are local artifacts
-outputs/best_model.pth
+# Checkpoints — committed for reproduce; other .pth files are local artifacts
 *.pth
 !model.pth
+!outputs/best_model.pth
 
 # Local experiment logs
 wandb/
